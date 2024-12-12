@@ -21,7 +21,7 @@ adb shell
 
 oraz przejść pod lokalizację
 ```bash
-cd /data/user/0/com.companyname.app1/files/.local/share
+cd /data/user/0/com.companyname.<nazwa-aplikacji>/files/.local/share
 ```
 
 jeśli chcemy sprawdzić zawartość pliku
