@@ -1,0 +1,25 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout Padding="20"
+                 BackgroundColor="LightGreen">
+        <Label Text="Galeria zdjęć"
+               HorizontalTextAlignment="Center"
+               FontSize="30"/>
+
+        <ScrollView>
+            <CollectionView x:Name="photoGalleryCollection">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="20">
+                            <ImageButton Source="{Binding Photo_Source}"
+                                         Clicked="DisplayPhotoDetails"
+                                         CommandParameter="{Binding .}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
