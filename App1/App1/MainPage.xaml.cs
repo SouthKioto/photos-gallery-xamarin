@@ -31,7 +31,7 @@ namespace App1
 
             if (photoData != null)
             {
-                await DisplayAlert("Photo Details", $"Tytuł: {photoData.Photo_Title}\nDescription: {photoData.Photo_Description}\n", "OK");
+                await DisplayAlert("Photo Details", $"Tytuł: {photoData.Photo_Title}\nOpis: {photoData.Photo_Description}\nData Utworzenia: {photoData.Photo_ReleaseData}", "OK");
             }
         }
 
