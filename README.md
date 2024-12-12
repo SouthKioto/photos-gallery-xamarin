@@ -29,3 +29,6 @@ jeśli chcemy sprawdzić zawartość pliku
 ```bash
 cat photos.txt
 ```
+
+Wygląd
+<img src="https://github.com/SouthKioto/photos-gallery-xamarin/blob/master/App1/App1.Android/Resources/drawable/screenshot.png"/>
