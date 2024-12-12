@@ -1,1 +1,1 @@
-#Galeria zdjęc - xamarin
+# Galeria zdjęc - xamarin
